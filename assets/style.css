@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('./fonts/Poppins Medium 500.ttf') format('truetype'),
+    url('./fonts/Poppins Regular 400.ttf') format('truetype'),
+    url('./fonts/Poppins-SemiBold_7c466ac270132dae4bf27ce8a2b2e0b7.ttf')
+      format('truetype');
+}
+
+body {
+  margin: 0%;
+}
+
 .html {
   background-color: #000;
 }
@@ -10,4 +22,20 @@
   color: #f1f1f1;
   width: 400px;
   height: max-content;
+  font-family: 'Poppins';
+}
+
+.finCLI-Chrome-Headline {
+  color: #f1f1f1;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+#newsIDElement {
+  font-size: 1rem;
+}
+
+.finCLI-Chrome-Emoji {
+  width: 2rem;
+  height: auto;
 }
