@@ -4,10 +4,9 @@ finCLI for Chrome browser
 
 ## Present Progress
 
-<img src="assets/Screenshot 2022-01-14 at 19.44.13.png"/>
+<img src="assets/Screenshot 2022-01-16 at 10.42.48.png"/>
 
 ## To Do
 
-1. Fix CORS error while accessing API endpoints
-2. Remove margin(white) make it into full black backround
-3. Improve CSS
+1. Improve CSS
+2. Add more dynamic news
