@@ -1,6 +1,9 @@
 # finCLI-Chrome
 finCLI for Chrome browser
 
+## Architecture Diagram
+
+<img src="assets/arch-diagram.png"/>
 
 ## Present Progress
 
