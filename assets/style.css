@@ -26,7 +26,7 @@ body {
 }
 
 .finCLI-Chrome-Headline {
-  color: #f1f1f1;
+  color: #FEC127;
   font-size: 1rem;
   font-weight: 400;
 }
@@ -38,4 +38,8 @@ body {
 .finCLI-Chrome-Emoji {
   width: 2rem;
   height: auto;
+}
+
+.finCLI-Chrome-Publisher {
+  color: #9f48ff;
 }
