@@ -16,12 +16,13 @@ We wanted to build more usage relevance hence coming up with a Chrome Extension 
 
 ## Present Progress
 
-<h1 align="center"><img height="auto" width="400px" src="assets/Screenshot 2022-01-16 at 10.42.48.png"/></h1>
+<h1 align="center"><img height="auto" width="400px" src="assets/Screenshot 2022-01-17 at 09.09.03.png"/></h1>
 
 ## Pending Work
 
-1. Improve CSS
-2. Add more dynamic news
+1. Fix links of news-headline instead of `object-text`
+2. Launch on Chrome Store
+3. Support multiple sections - crypto, global finance
 
 ## Before you leave
 
