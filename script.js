@@ -31,30 +31,28 @@ fetch('https://fincli-news-api.herokuapp.com/india', {
 
     len = Math.min(len, 5);
 
-    // for (var i = 1; i < len; i++) {
-    // const divEnclosingNews = document.createElement("div")
-    const newsBlock = document.createElement('div');
-    const np = document.createElement('h3');
-    const node = document.createTextNode(newsData[1].news_publisher);
-    np.appendChild(node);
+    for (var i = 1; i < len; i++) {
+      let newsBlock = document.createElement('div');
+      let np = document.createElement('h3');
+      let node = document.createTextNode(newsData[i].news_publisher);
+      np.appendChild(node);
+      np.classList.add('finCLI-Chrome-Publisher');
 
-    const nh = document.createElement('a');
-    const nh_text = document.createTextNode(newsData[1].news_headline);
-    const nh_link = document.createTextNode(newsData[1].news_link);
-    // nh.setAttribute("href", nh_link);
-    nh.href = nh_link;
+      let nh = document.createElement('a');
+      let nh_text = document.createTextNode(
+        newsData[i].id + 1 + '. ' + newsData[i].news_headline
+      );
+      nh.classList.add('finCLI-Chrome-Headline');
+      let nh_link = document.createTextNode(newsData[i].news_link);
+      // nh.setAttribute("href", nh_link);
+      nh.href = nh_link;
 
-    nh.appendChild(nh_text);
-    newsBlock.append(np);
-    newsBlock.append(nh);
+      nh.appendChild(nh_text);
+      newsBlock.append(np);
+      newsBlock.append(nh);
 
-    // var h = newsData[1].news_headline;
-    // console.log(typeof h);
-
-    // const nh_text = document.createTextNode(h);
-    // newsBlock.appendChild(nh_text);
-    const element = document.getElementById('IN-News');
-    element.appendChild(newsBlock);
-    // }
+      let element = document.getElementById('IN-News');
+      element.appendChild(newsBlock);
+    }
   })
   .catch((Error) => console.log(Error));
