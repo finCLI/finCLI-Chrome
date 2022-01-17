@@ -20,9 +20,8 @@ We wanted to build more usage relevance hence coming up with a Chrome Extension 
 
 ## Pending Work
 
-1. Fix links of news-headline instead of `object-text`
-2. Launch on Chrome Store
-3. Support multiple sections - crypto, global finance
+1. Launch on Chrome Store
+2. `HTML-CSS Enhancement` Support multiple sections - crypto, global finance 
 
 ## Before you leave
 

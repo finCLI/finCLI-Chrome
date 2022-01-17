@@ -43,8 +43,8 @@ fetch('https://fincli-news-api.herokuapp.com/india', {
         newsData[i].id + 1 + '. ' + newsData[i].news_headline
       );
       nh.classList.add('finCLI-Chrome-Headline');
-      let nh_link = document.createTextNode(newsData[i].news_link);
-      // nh.setAttribute("href", nh_link);
+      let nh_link = newsData[i].news_link;
+      console.log(typeof nh_link)
       nh.href = nh_link;
 
       nh.appendChild(nh_text);
