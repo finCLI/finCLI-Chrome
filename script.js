@@ -9,7 +9,7 @@ fetch('https://fincli-news-api.herokuapp.com/india', {
 })
   .then((data) => data.json())
   .then((newsData) => {
-    console.log(newsData);
+    // console.log(newsData);
     const headline = newsData[0].news_headline;
     const newsLink = newsData[0].news_link;
     const publisher = newsData[0].news_publisher;
@@ -44,7 +44,7 @@ fetch('https://fincli-news-api.herokuapp.com/india', {
       );
       nh.classList.add('finCLI-Chrome-Headline');
       let nh_link = newsData[i].news_link;
-      console.log(typeof nh_link)
+      // console.log(typeof nh_link)
       nh.href = nh_link;
 
       nh.appendChild(nh_text);
