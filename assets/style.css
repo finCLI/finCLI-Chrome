@@ -21,8 +21,10 @@ body {
   margin: 0%;
   color: #f1f1f1;
   width: 400px;
-  height: max-content;
+  height: 400px;
   font-family: 'Poppins';
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 .finCLI-Chrome-Headline {
@@ -36,7 +38,7 @@ body {
 }
 
 .finCLI-Chrome-Emoji {
-  width: 2rem;
+  width: 1.2rem;
   height: auto;
 }
 
